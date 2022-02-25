@@ -34,7 +34,7 @@ const Search = () => {
         clearTimeout(timeoutID);
       };
     }
-  }, [term]);
+  });
 
   const renderedResults = results.map((results) => {
     return (
